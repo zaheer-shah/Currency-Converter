@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin: 150px auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(149, 149, 168);
+}
+
+.area {
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select,
+input {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(105, 153, 243);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
